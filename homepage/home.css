@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.head {
+    background-color: rgb(2, 2, 38);
+    color: rgb(221, 219, 219);
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(93, 93, 182), rgb(35, 35, 125), rgb(4, 4, 45));
+    /* padding-left: 1150px; */
+}
+
+
+#log {
+    float: right;
+    padding-right: 20px;
+    font-size: small;
+    padding-top: 5px;
+   
+}
+#logbutton{
+    border-radius: 50%;
+    width: 25px;
+}
+
+#con {
+    float: right;
+    padding-right: 20px;
+    font-size: small;
+    padding-top: 5px;
+}
+
+#log:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#con:hover {
+    color: white;
+    cursor: pointer;
+
+}
+
+#logo {
+    padding-left: 20px;
+    color: #333;
+    cursor: pointer;
+    
+}
+
+#spa {
+    background-color: rgb(93, 205, 93);
+    color: rgb(93, 205, 93);
+    height: 15px;
+    display: inline-block;
+
+}
+
+.section1 {
+    display: flex;
+    /* display:inline-block;  */
+
+}
+
+.options:hover {
+    color: rgb(93, 205, 93);
+    cursor: pointer;
+
+}
+
+.wrapper {
+    margin-top: 8px;
+    font-size: small;
+    
+}
+
+
+
+.button {
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 20px;
+    height: 60px;
+}
+
+#button1 {
+    background-color: rgb(8, 133, 8);
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+#button1:hover {
+    color: black;
+    cursor: pointer;
+
+}
+
+body {
+    /* background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(205, 208, 231), rgb(167, 172, 214), rgb(220, 222, 235)); */
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 102px;
+}
+
+.grid {
+  
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    row-gap: 4rem;
+    
+}
+.g-col-4{
+    height: 350px;
+    width: 300px;
+    border: 1px solid rgb(65, 63, 63);
+    margin-left: 80px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color: aliceblue;
+}
+.g-col-4:hover{
+    box-shadow: 0 6px 10px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.bi:hover{
+    transform: scale(1.25);
+    transition: 0.7s;
+    
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(205, 208, 231), rgb(167, 172, 214), rgb(220, 222, 235));
+}
+.grid{
+    margin-top: 2rem;
+}
+#htext{
+    font-family:cursive;
+   
+}
+#h-text-container{
+    margin-top: 6rem;
+}
+#createassessment{
+    color:rgb(93, 205, 93) ;
+}
+.learnmore{
+    margin-top: 100px;
+}
+#searchtext{
+    height: 19px;
+}
+
+#searchtext:hover{
+    box-shadow:0 2px 2px 2px rgba(0, 0, 0, 0.2) ;
+}

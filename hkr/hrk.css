@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.head {
+    background-color: rgb(2, 2, 38);
+    color: rgb(221, 219, 219);
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(93, 93, 182), rgb(35, 35, 125), rgb(4, 4, 45));
+    /* padding-left: 1150px; */
+}
+
+
+#log {
+    float: right;
+    padding-right: 20px;
+    font-size: small;
+    padding-top: 5px;
+    color: rgb(221, 219, 219);
+}
+
+#con {
+    float: right;
+    padding-right: 20px;
+    font-size: small;
+    padding-top: 5px;
+}
+
+#log:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#con:hover {
+    color: white;
+    cursor: pointer;
+
+}
+
+#logo {
+    padding-left: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+#spa {
+    background-color: rgb(93, 205, 93);
+    color: rgb(93, 205, 93);
+    height: 15px;
+    display: inline-block;
+
+}
+
+.section1 {
+    display: flex;
+    /* display:inline-block;  */
+
+}
+
+.options:hover {
+    color: rgb(93, 205, 93);
+    cursor: pointer;
+
+}
+
+.wrapper {
+    margin-top: 8px;
+    font-size: small;
+}
+
+.section2 {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: #333;
+
+}
+
+.button {
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 20px;
+    height: 60px;
+}
+
+#button1 {
+    background-color: rgb(8, 133, 8);
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+#button1:hover {
+    color: black;
+    cursor: pointer;
+
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(205, 208, 231), rgb(167, 172, 214), rgb(220, 222, 235));
+    height: 100%;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.card-img{
+    height: 300px;
+    width: 250px;
+}
+.card-img:hover{
+   transform: scale(1.1);
+   transition: 0.7s;
+}
+.flexbox{
+    display: flex;
+    justify-content:space-around;   
+    
+}
+/* footer {
+    text-align: center;
+    margin-top: 102px;
+} */
